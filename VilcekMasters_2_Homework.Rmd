@@ -80,17 +80,13 @@ typeof(nyc$UALBUMIN)
 
 ```{r}
 class(nyc$DX_DBTS)
-typeof(nyc$DX_DBTS)
 ```
-
 
 >- Provide the same command the type of data but use the other way of indexing from what you did above. 
 
 ```{r}
 class(nyc[["DX_DBTS"]])
-typeof(nyc[["DX_DBTS"]])
 ```
-
 
 >- What would happen if we had chosen the first 4 columns of NYC HANES and made a matrix? What would the class of the cells in this matrix be? Why?
 
